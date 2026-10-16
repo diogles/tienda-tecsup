@@ -7,6 +7,10 @@ function calcularTotal(lista) {
   let total = 0;
   for (const producto of lista) {
     total = total + producto.precio * producto.cantidad;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 31dfba2 (Corrige el calculo del total del carrito (#328))
   }
   return total;
 }
